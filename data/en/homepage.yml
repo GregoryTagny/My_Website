@@ -1,0 +1,296 @@
+########################## hero area ##########################
+hero:
+  title : "Hi, I'm Gregory Tagny"
+  thumbnail : "images/slider/slider-4.jpg"
+
+  # animated text loop
+  occupations:
+    - "Robotics Engineer"
+    - "Web Designer"
+    - "Data analyst"
+    - "Machine Learning Developer"
+
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-4.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
+
+  # button
+  button:
+    enable : true
+    label : "REQUEST MY CV"
+    link : "https://www.linkedin.com/in/gregorytagny/"
+
+
+####################### Full screen navigation #####################
+fullscreen_nav:
+  enable : true
+  bg_image : "images/backgrounds/full_nav_bg_gregory.jpg"
+  first_name : "Gregory"
+  last_name : "TAGNY"
+
+
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait_gregory2.jpg"
+  title : "KNOW MORE <br> ABOUT ME"
+  content :
+    "Hi, I am Gregory, a Data Analyst with a meaningful experience in
+    Entrepreneurship, Electronics Engineering & Software Development acquired
+    within 3 Fortune 500 companies.
+    Fascinated by Data Science and processes automation, I have a proven track
+    record of developing algorithms and building actionable dashboards with
+    SQL, Tableau, Power BI, Python and R.
+    Follow my tech-blog to discover all my projects. 😊"
+
+  # button
+  button:
+    enable : true
+    label : "SEE MY PROJECTS"
+    link : "https://gregorytagnyprojects.github.io/"
+
+########################### Experience ##############################
+experience:
+  enable : true
+  title : "EXPERIENCE"
+  experience_list:
+    # experience item loop
+    - name : "Data Analyst"
+      company : "Wayfair"
+      city : "Berlin"
+      duration : "2018-2020"
+      content : "Workflow Automation - Data Visualization - Reporting/Dashboard - ETL Process Management"
+
+    # experience item loop
+    - name : "Customer Experience & Contents"
+      company : "SAP"
+      city : "Walldorf"
+      duration : "2017-2018"
+      content : "UX and UI improvement"
+
+    # experience item loop
+    - name : "Embedded Software Engineer"
+      company : "Hitachi"
+      city : "Tokyo"
+      duration : "2015-2016"
+      content : "Software development (C language) - ECU Software/Hardware Test - HIL simulation - Testing mentor"
+
+    # experience item loop
+    - name : "Co-Founder"
+      company : "YTK Web Agency"
+      city : "Shanghai"
+      duration : "2013-2015"
+      content : "Web Design - Client acquisition - Business development"
+
+
+############################### Skill #################################
+skill:
+  enable : true
+  title : "SKILLS"
+  skill_list:
+    # skill item loop
+    - name : "Scripting"
+      parcentage : "97%"
+
+    # skill item loop
+    - name : "SQL"
+      parcentage : "90%"
+
+    # skill item loop
+    - name : "Robotics"
+      parcentage : "75%"
+
+    # skill item loop
+    - name : "Data Visualization"
+      parcentage : "95%"
+
+    # skill item loop
+    - name : "Web Design"
+      parcentage : "85%"
+
+################################### Service ##############################3
+service:
+  enable : true
+  title : "EXPERTISE"
+  service_list:
+
+    # service item loop
+    - name : "SQL"
+      image : "images/icons/Database.png"
+
+    # service item loop
+    - name : "Data Analysis"
+      image : "images/icons/Dashboard.png"
+
+    # service item loop
+    - name : "Python"
+      image : "images/icons/Python.png"
+
+    # service item loop
+    - name : "ETL"
+      image : "images/icons/ETL3.png"
+
+    # service item loop
+    - name : "R"
+      image : "images/icons/R.png"
+
+    # service item loop
+    - name : "Power BI"
+      image : "images/icons/PowerBI.png"
+
+    # service item loop
+    - name : "Tableau"
+      image : "images/icons/Tableau.png"
+
+    # service item loop
+    - name : "C Language"
+      image : "images/icons/C.png"
+
+    # service item loop
+    - name : "Poker"
+      image : "images/icons/Poker3.png"
+
+############################## call to action #########################
+call_to_action:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "NEED HELP?"
+  button:
+    enable : true
+    label : "CONTACT ME"
+    link : "#contact"
+
+
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PORTFOLIO"
+  portfolio_list:
+    # portfolio item loop
+    - name : "Rain <br> Checker"
+      image : "images/portfolio/RainCheck.jpg"
+      date : "May 2020"
+      category : "Automation"
+
+    # portfolio item loop
+    - name : "Door <br> Sensor"
+      image : "images/portfolio/DoorSensor.jpg"
+      date : "Sep 2019"
+      category : "Automation"
+
+    # portfolio item loop
+    - name : "Intruder <br> Detector"
+      image : "images/portfolio/Intruder.jpg"
+      date : "Dec 2019"
+      category : "Automation"
+
+    # portfolio item loop
+    - name : "Smart <br> Light"
+      image : "images/portfolio/SmartLight.jpg"
+      date : "Nov 2019"
+      category : "Automation"
+
+    # portfolio item loop
+    - name : "Granger <br> Causality"
+      image : "images/portfolio/GrangerCausality.jpg"
+      date : "Feb 2020"
+      category : "Data Analysis"
+
+    # portfolio item loop
+    - name : "Stocks<br> Tracking"
+      image : "images/portfolio/StockPrice.jpg"
+      date : "Feb 2020"
+      category : "Data Analysis"
+
+    # portfolio item loop
+    - name : "Linkedin <br> Scapper"
+      image : "images/portfolio/LinkedinScrapper2.jpg"
+      date : "Dec 2019"
+      category : "Data Analysis"
+
+    # portfolio item loop
+    - name : "PSM <br> Lalonde"
+      image : "images/portfolio/Lalonde.jpg"
+      date : "Mar 2020"
+      category : "Data Analysis"
+
+    # portfolio item loop
+    - name : "Best In <br> Class"
+      image : "images/portfolio/BestInClass.jpg"
+      date : "Mar 2020"
+      category : "Data Viz"
+
+    # portfolio item loop
+    - name : "GDP <br> Split"
+      image : "images/portfolio/GDP.jpg"
+      date : "Feb 2020"
+      category : "Data Viz"
+
+    # portfolio item loop
+    - name : "Orders <br> Tracking"
+      image : "images/portfolio/Orders.jpg"
+      date : "Feb 2020"
+      category : "Data Viz"
+
+    # portfolio item loop
+    - name : "FIFA19 <br> Players"
+      image : "images/portfolio/FIFA19.jpg"
+      date : "Feb 2020"
+      category : "Data Viz"
+
+    # portfolio item loop
+    - name : "Customer <br> Classifier"
+      image : "images/portfolio/Classifier.jpg"
+      date : "May 2020"
+      category : "Machine Learning"
+      
+  # button
+  button:
+    enable : true
+    label : "EXPLORE MY PROJECTS"
+    link : "https://gregorytagnyprojects.github.io/"
+
+
+################################# Testimonial #########################33
+testimonial:
+  enable : true
+  title : "TESTIMONIALS"
+  testimonial_slider:
+    # slider item loop
+    - name : "Diogo Alves"
+      image : "images/clients/Diogo.jpg"
+      designation : "Commercial Planning & Strategy Manager, Zalando "
+      content : "I am fortunate to have had Gregory as a colleague and now as sparring partner for business in general, and especially related to entrepreneurship and start ups, and life. He excels in not commercial acumen but also technical expertise in software development.
+                  Even though I could go on and on about his capacities, what stands out the most is the human side: a natural team-worker, who manages to bring people up, in his always cheerful way of being."
+
+######################### funfacts #############################3
+funfacts:
+  enable : true
+  title : "FUN FACTS"
+  funfacts_list:
+    # funfacts item loop
+    - name : "COUNTRIES"
+      image : "images/icons/world.png"
+      count : "23"
+
+    # funfacts item loop
+    - name : "FINISHED PROJECTS"
+      image : "images/icons/project.png"
+      count : "12"
+
+    # funfacts item loop
+    - name : "FIXED BUGS"
+      image : "images/icons/bug.png"
+      count : "1337"
+
+    # funfacts item loop
+    - name : "CUPS OF COFFEE"
+      image : "images/icons/coffee.png"
+      count : "306"
+
+############################## contact ###########################
+contact:
+  enable : true
+  title : "CONTACT ME"
